@@ -1,16 +1,18 @@
-# CS-206: Midterm Exam
+# CS-206: Final Exam
 
-Wednesday, 14 April 2021, 14:15 - 17:00
+Saturday, 10 July 2021, 8:15 - 11:00
 
-This exam is open book in the sense that you are allowed to consult the PDF slides for all lectures in this course and the Functional Programming course. The exam will cover all the material seen in the class up to week 6 (included).
+Rooms: SG1, AAC137, CO1 and CE6
 
-The exam consists of four programming assignments that you should solve using the usual tools from the class (git, sbt, and your favorite text editor). In addition to problem statements, each problem comes with a set of automated tests, just like for the labs. Those tests will be used to compute your grade. Make sure to follow any additional requirements listed in the problem statement. Some of those requirements might not be covered by our automated tests and will be graded manually.
+*Exam rooms are equipped with computer plugs. Students must bring their own laptops that are capable of developing and locally testing assignments such as labs done during the semester. As a student, it is your responsibility to ensure that you have access to reliable hardware and software for the duration of the exam. Please make sure that you are comfortable using the usual tools from the class, so that you can focus on the exam. If you have trouble assuring access to a laptop and are willing to work with a rented one, please contact us ASAP and we will explore if we can get you one to use during the exam.*
 
-The TAs will be available on Discord during the exam. In case you have questions or need help, don’t hesitate to contact one of the TAs using Discord’s private messages or our public Discord channel. It is your responsibility to ensure that you have access to reliable internet connection, hardware, and software for the duration of the exam. Also make sure that you are comfortable using the usual tools from the class, so that you can focus on the exam.
+This is an open-book exam. For example, you are allowed to consult the PDF slides for all lectures in this course and the Functional Programming course and do Google search. The final exam will cover all the material seen during the semester.
 
-Your answers are submitted by pushing your code on GitLab. At the end of the exam, you will be given an extra 15 minutes to make sure that your solutions are uploaded and to handle any potential technical difficulties. Commits pushed after 17:15 will not be graded.
+*No cheating*: Each student must solve the exam individually. Consulting with anyone except the teaching staff of this course during the exam, copying solutions from the Internet, or making your solution available to anyone is considered cheating and a reason for disciplinary action.
 
-*No cheating*: Each student must solve the exam individually. Consulting with anyone except the teaching staff of this course during the exam, copying solutions from the Internet, or making your solution available to anyone is considered cheating and a reason for disciplinary action. We will use plagiarism detection tools on your solutions. We reserve the right to follow up with some of you on Zoom after the scheduled slot and ask you about solutions to your or similar questions, whether or not we suspect you cheated; this possibility is a normal part of the examination this year.
+The exam consists of four programming assignments that you should solve using the usual tools from the class (git, sbt, and your favorite text editor). In addition to problem statements, each problem comes with a set of automated tests, just like for the labs. Those tests will be one component used to compute your grade. Make sure to follow any additional requirements listed in the problem statement. Some of those requirements might not be covered by our automated tests; the teaching staff will check and grade such requirements manually.
+
+You should submit your answers by pushing your code to GitLab. At the end of the exam, you will have an additional 15 minutes to make sure that your solutions are uploaded and to handle any potential technical difficulties. Commits pushed after 11:15 will not count for the exam.
 
 ## How to obtain questions
 
@@ -20,33 +22,33 @@ Assignments will be available online at the start of the exam. Please clone the 
 git clone https://github.com/lampepfl/cs206-2021-exam
 ```
 
-Each assignment is published similarly to labs: the problem statements are given as markdown files in the following directory: https://github.com/lampepfl/cs206-2021-exam/tree/main/midterm; the code skeleton for each problem is available in a separate branch of your private GitLab repository. Each student will receive a list of links to their questions before the exam by email.
+We have prepared each assignment similarly to labs: the problem statements are markdown files in the following directory: https://github.com/lampepfl/cs206-2021-exam/tree/main/final; the code skeleton for each problem is in a separate branch of your private GitLab repository.
 
-## How to submit questions
+## How to submit your solutions
 
-Your answers are submitted by pushing your code on GitLab, just like the labs. After you submit your solution, you will receive a preliminary grade for that question. This information will be available in the GitLab CI. The tests executed on the CI are identical to those you can run locally. For detailed information, refer to labs submission instructions: https://gitlab.epfl.ch/lamp/cs206/-/blob/master/labs/grading-and-submission.md#committing-and-pushing-your-code.
+You should submit your solutions by pushing your code to GitLab, just like for the labs. After you submit your solution, you will receive a preliminary grade for that question based on automated tests only. This information will be available in the GitLab CI. The tests executed on the CI are identical to those you can run locally. For detailed information, refer to lab submission instructions: https://gitlab.epfl.ch/lamp/cs206/-/blob/master/labs/grading-and-submission.md#committing-and-pushing-your-code.
 
-You are allowed to push multiple times for the same question (only the last commit will be considered).
+You are allowed to push multiple times the solution of a question. Only the last commit within the deadline will be considered for your grade.
 
-## How to run tests
+## How to run tests on your laptop
 
-Refer to labs submission instructions for detailed information on how to run tests: https://gitlab.epfl.ch/lamp/cs206/-/blob/master/labs/grading-and-submission.md#local-tests-and-grading
+Refer to labs submission instructions for detailed information on how to run tests on your laptop: https://gitlab.epfl.ch/lamp/cs206/-/blob/master/labs/grading-and-submission.md#local-tests-and-grading
 
 ## Recommended workflow summary
 
-After you have obtained a question, do the following:
+After you obtained a question, do the following:
 
 1. read the requirements carefully
 2. write the solution taking the requirements into account
-3. make sure your solution compiles
-4. make sure your solution passes the local tests on your machine; if it does not, repeat previous steps
+3. make sure that your solution compiles
+4. make sure that your solution passes the local tests on your machine; if it does not, repeat previous steps
 5. submit your solution using git
-6. start working on the next question
+6. start working on another question
 
-If you feel you are spending more time on the question and will likely not solve it, then go to step 6 to get a chance at solving the subsequent question. This way you will still get some points for the partially solved question. If you have time, you can go back to it later.
+You can solve questions in any order. If you conclude that you have spent some time on the question and you estimate that you will likely not solve it, then go to step 6 to get a chance at solving other questions.
 
 ## How we grade your exam
 
-Each question is worth 10 points. If you do not manage to solve a particular question, you can skip to the next one. This way you will get some points for partially correct solutions, as indicated in the grader output (a grade of 9/10 gives you 9 points for that question). An entire question can never be assigned a negative number of points; the least amount of points is zero.
+Each question is worth 10 points. If you do not manage to solve a particular question, you can skip to another one. You will get some points for partially correct solutions, as indicated in the grader output (a grade of 9/10 gives you 9 points for that question). An entire question can never receive a negative number of points; the least amount of points is zero.
 
-You need to push your code to GitLab to receive a grade. If you forget to submit your solution before 17:15, you will recieve zero points for that question.
+You need to push your code to GitLab to receive a grade. If you forget to submit a solution before 11:15, you will receive zero points for that question.
