@@ -52,3 +52,11 @@ You can solve questions in any order. If you conclude that you have spent some t
 Each question is worth 10 points. If you do not manage to solve a particular question, you can skip to another one. You will get some points for partially correct solutions, as indicated in the grader output (a grade of 9/10 gives you 9 points for that question). An entire question can never receive a negative number of points; the least amount of points is zero.
 
 You need to push your code to GitLab to receive a grade. If you forget to submit a solution before 11:15, you will receive zero points for that question.
+
+## Hardware setup
+
+We expect that the exam can be done reasonably on a laptop with a laptop around 14" screen, FullHD resolution, and a reasonable CPU and RAM such that the price range with Windows or Linux OS remains under 1000 CHF. You are allowed to bring external keyboard and a mouse. If you feel that you need to bring a monitor, you can do that, but we do not allow you to run multiple screens: you can keep on at most one screen on during the exam (this includes laptop screens, external monitors, tablets such as ipads and others, or phones, to give a few examples). If you plan to attach an external monitor, you need to keep your laptop lid closed during the exam. If you need multiple power sockets during the exam, please bring a socket strip with a straight plug (not a 90 degree one), as we are only guaranteeing to provide one plug per student.  Whereas you could, in principle, use a (mini) desktop instead of a laptop, we do not recommend this.
+
+ We do not provide wired ethernet and expect you to use EPFL or Eduroam WiFi network, which will be available. We do not provide any guarantees on the quality of mobile phone data connection in the exam rooms. Please test your setup at EPFL, including the WiFi connection, before the exam. Do not change your hardware setup during the exam, unless it becomes absolutely necessary for you to continue the work. We advise you to keep your setup as robust and simple as possible and focus on solving the questions.
+
+If you anticipate difficultues in arranging your computer setup for the exam according to the above instructions, please contact us immediately to discuss possible solutions.
